@@ -64,7 +64,7 @@ void Thidua(nhanvien nv[],int n)
 		{
 			cout<<setw(10)<<nv[i].thidua<<"\n Ngay cong >= 23 loai xuat tot."<<endl;
 		}
-		else (nv[i].ngaycong<23);  //có the co loi an//
+		else (nv[i].ngaycong<23);  //cÃ³ the co loi an//
 		{
 			cout<<setw(10)<<nv[i].thidua<<"\n Ngay cong >= 23 khong dat."<<endl;
 		}
@@ -180,19 +180,19 @@ int main()
 	cin>>n;
 	while(n>0)
 	{
-		cout<<"=================CHUONG TRINH QUAN LY NHAN VIEN.=============\n";
-		cout<<"====							MENU							\n"<<endl;
-		cout<<"=============================================================\n";
-		cout<<"====			1.Nhap thong tin nhan vien.						\n";
-		cout<<"====			2.In ra danh sach nhan vien.					\n";
-		cout<<"====			3.Xep loai nhan vien.							\n";
-		cout<<"====			4.Danh sach phu cap Max , Min.					\n";
-		cout<<"====			5.Nhan vien co luong Max.						\n";
-		cout<<"====			6. Xap xep danh sach nhan vien.					\n";
-		cout<<"====			7.Danh sach nhan vien co phu cap tren 10 trieu. \n";
+		cout<<"=================CHUONG TRINH QUAN LY NHAN VIEN.=============			\n";
+		cout<<"====				MENU			    			\n"<<endl;
+		cout<<"=============================================================			\n";
+		cout<<"====			1.Nhap thong tin nhan vien.	    			\n";
+		cout<<"====			2.In ra danh sach nhan vien.				\n";
+		cout<<"====			3.Xep loai nhan vien.					\n";
+		cout<<"====			4.Danh sach phu cap Max , Min.				\n";
+		cout<<"====			5.Nhan vien co luong Max.				\n";
+		cout<<"====			6. Xap xep danh sach nhan vien.				\n";
+		cout<<"====			7.Danh sach nhan vien co phu cap tren 10 trieu. 	\n";
 		cout<<"====			8.Tim kiem nhan vien bang Ma Nhan Vien.			\n";
-		cout<<"====			9.EXIT.											\n";
-		cout<<"=============================================================\n";
+		cout<<"====			9.EXIT.							\n";
+		cout<<"=============================================================			\n";
 		
 		cout<<"\n Hay nhap tuy tron cua ban: ";
 		cin>>option;
