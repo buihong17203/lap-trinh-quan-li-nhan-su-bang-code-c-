@@ -20,9 +20,9 @@ void nhap(nhanvien nv[],int n)
 	for(int i=0;i<n;i++)
 	{
 		cout<<"\n Nhan vien thu: "<<i+1<<""<<endl;
-		cout<<"\n Ma nhan vien"<<i+1<<": ";cin>>nv[i].Manv;
+		cout<<"\n Ma nhan vien "<<i+1<<": ";cin>>nv[i].Manv;
 		fflush(stdin); //xoa bo ho dem
-		cout<<"\n Ho ten nhan vien ";getline(std::cin,nv[i].hoten);
+		cout<<"\n Ho ten nhan vien: ";getline(std::cin,nv[i].hoten);
 		cout<<"\n Gioi tinh Nam/Nu: ";getline(std::cin,nv[i].gioitinh);
 		fflush(stdin);
 		cout<<"\n Ngay cong: ";cin>>nv[i].ngaycong;
@@ -180,21 +180,22 @@ int main()
 	cin>>n;
 	while(n>0)
 	{
-		cout<<"=================CHUONG TRINH QUAN LY NHAN VIEN.=================\n";
-		cout<<"====							MENU							====\n"<<endl;
-		cout<<"=================================================================\n";
-		cout<<"====			1.Nhap thong tin nhan vien.						====\n";
-		cout<<"====			2.In ra danh sach nhan vien.					====\n";
-		cout<<"====			3.Xep loai nhan vien.							====\n";
-		cout<<"====			4.Danh sach phu cap Max , Min.					====\n";
-		cout<<"====			5.Nhan vien co luong Max.						====\n";
-		cout<<"====			6. Xap xep danh sach nhan vien.					====\n";
-		cout<<"====			7.Danh sach nhan vien co phu cap tren 10 trieu. ====\n";
-		cout<<"====			8.Tim kiem nhan vien bang Ma Nhan Vien.			====\n";
-		cout<<"====			9.EXIT.											====\n";
-		cout<<"=================================================================\n";
+		cout<<"=================CHUONG TRINH QUAN LY NHAN VIEN.=============\n";
+		cout<<"====							MENU							\n"<<endl;
+		cout<<"=============================================================\n";
+		cout<<"====			1.Nhap thong tin nhan vien.						\n";
+		cout<<"====			2.In ra danh sach nhan vien.					\n";
+		cout<<"====			3.Xep loai nhan vien.							\n";
+		cout<<"====			4.Danh sach phu cap Max , Min.					\n";
+		cout<<"====			5.Nhan vien co luong Max.						\n";
+		cout<<"====			6. Xap xep danh sach nhan vien.					\n";
+		cout<<"====			7.Danh sach nhan vien co phu cap tren 10 trieu. \n";
+		cout<<"====			8.Tim kiem nhan vien bang Ma Nhan Vien.			\n";
+		cout<<"====			9.EXIT.											\n";
+		cout<<"=============================================================\n";
 		
-		cout<<"\n Hay nhap tuy tron cua ban: ";cin>>option;
+		cout<<"\n Hay nhap tuy tron cua ban: ";
+		cin>>option;
 		switch(option)
 		{
 			case 1:
